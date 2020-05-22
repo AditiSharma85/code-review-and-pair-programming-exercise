@@ -6,7 +6,6 @@ import puppy from './puppy.jpg';
 
 function App() {
   return (
-// <body>
 <div>
 <section>
   <span>Simple Social Media App!</span>
@@ -31,7 +30,6 @@ function App() {
       </div>
     </div>
 </div>
-// </body>
   );
 }
 
