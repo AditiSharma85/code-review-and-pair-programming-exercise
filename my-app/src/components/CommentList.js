@@ -12,7 +12,7 @@ class CommentList extends React.Component {
   handleChange = event => {
       this.setState({comment: event.target.value})
     };
-
+//add new comment functionality
   addNewComment = event => {
     event.preventDefault();
     let tempComment = this.state.comment;
