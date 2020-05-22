@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Post from './components/Post';
+import LikeButton from './components/LikeButton';
+import CommentList from './components/CommentList';
 import image from './image.jpg';
 
 function App() {
@@ -12,7 +14,10 @@ function App() {
       <div>
       <Post content = {image} />
       </div>
-    </div>
+      <div>
+      <CommentList/><LikeButton/>
+      </div>
+      </div>
   );
 }
 
