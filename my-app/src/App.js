@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Post from './components/Post';
+import LikeButton from './components/LikeButton';
+import CommentList from './components/CommentList';
 import image from './image.jpg';
 import puppy from './puppy.jpg';
 
