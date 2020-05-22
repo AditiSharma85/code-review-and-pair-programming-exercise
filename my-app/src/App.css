@@ -8,6 +8,7 @@ body {
   width: 75%;
   background-color: #d3dae6;
   border-radius: 25px;
+  padding: 20px;
 }
 
 .Post {
@@ -16,7 +17,7 @@ body {
   background-color: white;
   border-radius: 25px;
   background: #3734eb;
-  padding: 20px;
+  padding: 10px;
 }
 
 
