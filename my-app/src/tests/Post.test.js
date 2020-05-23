@@ -15,3 +15,18 @@ test("Post component receives props and renders text", () => {
 
 	expect.stringContaining("Give me all your likes!");	
 });
+//Post is rendered, alongwith LikeButton.
+//LikeButton is then clicked, and string containing 
+//increased like count is expected.
+test("Like component is clicked, and counter is increased", () => {
+
+	render(
+		<Post content = "This is totally not a cry for attention" />
+		);
+
+	const button = screen.getByText('Like');
+
+	fireEvent.click(button);
+
+	expect.stringContaining("Likes: 1");
+});
